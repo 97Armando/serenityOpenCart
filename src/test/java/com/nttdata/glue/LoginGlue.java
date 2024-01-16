@@ -27,7 +27,7 @@ public class LoginGlue {
     @Given("^(.*) estoy en la pagina opencart$")
     public void login(String actor){
         theActorCalled(actor).attemptsTo(
-                OpenPage.loadPage()
+                OpenPage.loadPage("http://opencart.abstracta.us/")
         );
     }
 

@@ -94,7 +94,7 @@ public class PurchaseFormPage implements Task {
 
                 WaitUntil.the(PurchasePageInterface.BTN_CONF, isVisible()).forNoMoreThan(20).seconds(),
                 Click.on(PurchasePageInterface.BTN_CONF),
-
+//                BOTON PARA FINALIZAR COMPRA
                 WaitUntil.the(PurchasePageInterface.btn_final, isVisible()).forNoMoreThan(20).seconds(),
                 Click.on(PurchasePageInterface.btn_final)
 

@@ -12,5 +12,8 @@ public class ShopPageInterface {
     public static final Target BTN_VIEW_CART = Target.the(("BTN VIEW CART")).located(By.xpath("//*[@id='cart']/ul/li[2]/div/p/a[1]"));
     public static final Target BTN_CHECKOUT = Target.the(("BTN CHECKOUT")).located(By.xpath("//*[@id='content']/div[3]/div[2]/a"));
     public static final Target BTN_GUEST_CHECKOUT = Target.the(("BTN GUEST CHECKOUT")).located(By.xpath("//*[@id='collapse-checkout-option']/div/div/div[1]/div[2]/label/input"));
+    public static final Target BTN_AVANZ = Target.the("Btn AVANZADO").located(By.xpath("//*[@id='details-button']"));
+    public static final Target BTN_CONT_SEG = Target.the("Btn CONT SEG").located(By.xpath("//*[@id='proceed-link']"));
+
     public static final Target BTN_CONTINUE = Target.the(("BTN CONTINUE")).located(By.xpath("//*[@id='button-account']"));
 }

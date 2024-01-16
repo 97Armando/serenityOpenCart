@@ -33,11 +33,19 @@ public class AddProductPage implements Task {
                 Scroll.to(ShopPageInterface.BTN_CHECKOUT),
                 Click.on(ShopPageInterface.BTN_CHECKOUT),
 
+                //                CLICK EN CERTIFICADO DE SEGURIDAD
+                WaitUntil.the(ShopPageInterface.BTN_AVANZ, isVisible()).forNoMoreThan(20).seconds(),
+                Click.on(ShopPageInterface.BTN_AVANZ),
+
+                WaitUntil.the(ShopPageInterface.BTN_CONT_SEG, isVisible()).forNoMoreThan(20).seconds(),
+                Click.on(ShopPageInterface.BTN_CONT_SEG),
+
                 WaitUntil.the(ShopPageInterface.BTN_GUEST_CHECKOUT, isVisible()).forNoMoreThan(20).seconds(),
                 Click.on(ShopPageInterface.BTN_GUEST_CHECKOUT),
 
                 WaitUntil.the(ShopPageInterface.BTN_CONTINUE, isVisible()).forNoMoreThan(20).seconds(),
                 Click.on(ShopPageInterface.BTN_CONTINUE)
+
         );
     }
 }

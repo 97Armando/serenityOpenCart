@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 
 public class PurchasePageInterface{
     public static final Target INP_FIRST_NAME = Target.the("Input name").located(By.name("firstname"));
-    public static final Target INP_LAST_NAME = Target.the("Input last name").located(By.name("firstname"));
+    public static final Target INP_LAST_NAME = Target.the("Input last name").located(By.name("lastname"));
     public static final Target INP_EMAIL = Target.the("Input email").located(By.xpath("//*[@id=\"input-payment-email\"]"));
     public static final Target INP_PHONE = Target.the("Input telephone").located(By.name("telephone"));
     public static final Target INP_COMPANY = Target.the("Input company").located(By.name("company"));
