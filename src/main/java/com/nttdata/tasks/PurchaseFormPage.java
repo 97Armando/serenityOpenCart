@@ -1,4 +1,5 @@
 package com.nttdata.tasks;
+
 import com.nttdata.userinterfaces.PurchasePageInterface;
 import com.nttdata.userinterfaces.ShopPageInterface;
 import net.serenitybdd.screenplay.Actor;
@@ -45,58 +46,58 @@ public class PurchaseFormPage implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                WaitUntil.the(PurchasePageInterface.INP_FIRST_NAME, isVisible()).forNoMoreThan(20).seconds(),
-                Enter.theValue(firstname).into(PurchasePageInterface.INP_FIRST_NAME),
+                WaitUntil.the(PurchasePageInterface.input_FIRST_NAME, isVisible()).forNoMoreThan(20).seconds(),
+                Enter.theValue(firstname).into(PurchasePageInterface.input_FIRST_NAME),
 
-                WaitUntil.the(PurchasePageInterface.INP_LAST_NAME, isVisible()).forNoMoreThan(20).seconds(),
-                Enter.theValue(lastname).into(PurchasePageInterface.INP_LAST_NAME),
+                WaitUntil.the(PurchasePageInterface.input_LAST_NAME, isVisible()).forNoMoreThan(20).seconds(),
+                Enter.theValue(lastname).into(PurchasePageInterface.input_LAST_NAME),
 
-                WaitUntil.the(PurchasePageInterface.INP_EMAIL, isVisible()).forNoMoreThan(20).seconds(),
-                Enter.theValue(email).into(PurchasePageInterface.INP_EMAIL),
+                WaitUntil.the(PurchasePageInterface.input_EMAIL, isVisible()).forNoMoreThan(20).seconds(),
+                Enter.theValue(email).into(PurchasePageInterface.input_EMAIL),
 
-                WaitUntil.the(PurchasePageInterface.INP_PHONE, isVisible()).forNoMoreThan(20).seconds(),
-                Enter.theValue(telephone).into(PurchasePageInterface.INP_PHONE),
+                WaitUntil.the(PurchasePageInterface.input_PHONE, isVisible()).forNoMoreThan(20).seconds(),
+                Enter.theValue(telephone).into(PurchasePageInterface.input_PHONE),
 
-                WaitUntil.the(PurchasePageInterface.INP_COMPANY, isVisible()).forNoMoreThan(20).seconds(),
-                Enter.theValue(company).into(PurchasePageInterface.INP_COMPANY),
+                WaitUntil.the(PurchasePageInterface.input_COMPANY, isVisible()).forNoMoreThan(20).seconds(),
+                Enter.theValue(company).into(PurchasePageInterface.input_COMPANY),
 
-                WaitUntil.the(PurchasePageInterface.INP_ADDRESS, isVisible()).forNoMoreThan(20).seconds(),
-                Enter.theValue(address_1).into(PurchasePageInterface.INP_ADDRESS),
+                WaitUntil.the(PurchasePageInterface.input_ADDRESS, isVisible()).forNoMoreThan(20).seconds(),
+                Enter.theValue(address_1).into(PurchasePageInterface.input_ADDRESS),
 
-                WaitUntil.the(PurchasePageInterface.INP_CITY, isVisible()).forNoMoreThan(20).seconds(),
-                Enter.theValue(city).into(PurchasePageInterface.INP_CITY),
+                WaitUntil.the(PurchasePageInterface.input_CITY, isVisible()).forNoMoreThan(20).seconds(),
+                Enter.theValue(city).into(PurchasePageInterface.input_CITY),
 
-                WaitUntil.the(PurchasePageInterface.INP_POST_CODE, isVisible()).forNoMoreThan(20).seconds(),
-                Enter.theValue(postcode).into(PurchasePageInterface.INP_POST_CODE),
+                WaitUntil.the(PurchasePageInterface.input_POST_CODE, isVisible()).forNoMoreThan(20).seconds(),
+                Enter.theValue(postcode).into(PurchasePageInterface.input_POST_CODE),
 
                 Scroll.to(PurchasePageInterface.OPT_REGION),
 
-                WaitUntil.the(PurchasePageInterface.INP_COUNTRY, isVisible()).forNoMoreThan(20).seconds(),
-                Click.on(PurchasePageInterface.INP_COUNTRY),
+                WaitUntil.the(PurchasePageInterface.input_COUNTRY, isVisible()).forNoMoreThan(20).seconds(),
+                Click.on(PurchasePageInterface.input_COUNTRY),
 
-                WaitUntil.the(PurchasePageInterface.INP_REGION, isVisible()).forNoMoreThan(20).seconds(),
-                Click.on(PurchasePageInterface.INP_REGION),
+                WaitUntil.the(PurchasePageInterface.input_REGION, isVisible()).forNoMoreThan(20).seconds(),
+                Click.on(PurchasePageInterface.input_REGION),
 
                 WaitUntil.the(PurchasePageInterface.OPT_REGION, isVisible()).forNoMoreThan(20).seconds(),
                 Click.on(PurchasePageInterface.OPT_REGION),
 
-                WaitUntil.the(PurchasePageInterface.BTN_CONTINUE, isVisible()).forNoMoreThan(20).seconds(),
-                Click.on(PurchasePageInterface.BTN_CONTINUE),
+                WaitUntil.the(PurchasePageInterface.button_CONTINUE, isVisible()).forNoMoreThan(20).seconds(),
+                Click.on(PurchasePageInterface.button_CONTINUE),
 
-                WaitUntil.the(PurchasePageInterface.BTN_SHIPPING, isVisible()).forNoMoreThan(20).seconds(),
-                Click.on(PurchasePageInterface.BTN_SHIPPING),
+                WaitUntil.the(PurchasePageInterface.button_SHIPPING, isVisible()).forNoMoreThan(20).seconds(),
+                Click.on(PurchasePageInterface.button_SHIPPING),
 
-                WaitUntil.the(PurchasePageInterface.BTN_TERMS, isVisible()).forNoMoreThan(20).seconds(),
-                Click.on(PurchasePageInterface.BTN_TERMS),
+                WaitUntil.the(PurchasePageInterface.button_TERMS, isVisible()).forNoMoreThan(20).seconds(),
+                Click.on(PurchasePageInterface.button_TERMS),
 
-                WaitUntil.the(PurchasePageInterface.BTN_CONTINUE2, isVisible()).forNoMoreThan(20).seconds(),
-                Click.on(PurchasePageInterface.BTN_CONTINUE2),
+                WaitUntil.the(PurchasePageInterface.button_CONTINUE2, isVisible()).forNoMoreThan(20).seconds(),
+                Click.on(PurchasePageInterface.button_CONTINUE2),
 
-                WaitUntil.the(PurchasePageInterface.BTN_CONF, isVisible()).forNoMoreThan(20).seconds(),
-                Click.on(PurchasePageInterface.BTN_CONF),
+                WaitUntil.the(PurchasePageInterface.button_CONF, isVisible()).forNoMoreThan(20).seconds(),
+                Click.on(PurchasePageInterface.button_CONF),
 //                BOTON PARA FINALIZAR COMPRA
-                WaitUntil.the(PurchasePageInterface.btn_final, isVisible()).forNoMoreThan(20).seconds(),
-                Click.on(PurchasePageInterface.btn_final)
+                WaitUntil.the(PurchasePageInterface.button_final, isVisible()).forNoMoreThan(20).seconds(),
+                Click.on(PurchasePageInterface.button_final)
 
         );
     }

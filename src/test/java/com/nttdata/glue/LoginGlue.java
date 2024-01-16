@@ -17,38 +17,38 @@ import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class LoginGlue {
 
-    private static final String ACTOR_NAME = "USer";
+    private static final String ACTOR_NAME = "USER";
 
     @Before
     public void setTheStag() {
         OnStage.setTheStage(new OnlineCast());
     }
 
-    @Given("^(.*) estoy en la pagina opencart$")
+    @Given("^(.*) ESTOY EN LA PAGINA DE OPENCART$")
     public void login(String actor){
         theActorCalled(actor).attemptsTo(
                 OpenPage.loadPage("http://opencart.abstracta.us/")
         );
     }
 
-    @When("selecciono un producto del catalogo$")
+    @When("SELECCIONO UN PRODUCTO$")
     public void selectProduct(){
         when(OnStage.theActorInTheSpotlight()).attemptsTo(
                 AddProductPage.addProductsToCart()
         );
     }
 
-    @Then("agrego el producto al carrito$")
+    @Then("AGREGO EL PRODUCTO AL CARRITO$")
     public void addProduct(){
 
     }
 
-    @And("veo el carrito$")
+    @And("VEO EL CARRITO$")
     public void viewCart(){
 
     }
 
-    @When("^ingreso datos (.*) (.*) (.*) (.*) (.*) (.*) (.*) (.*) (.*) (.*)$")
+    @When("^INGRESO DATOS (.*) (.*) (.*) (.*) (.*) (.*) (.*) (.*) (.*) (.*)$")
     public void form(
             String firstname,
             String lastname,
@@ -80,7 +80,7 @@ public class LoginGlue {
     }
 
 
-    @Then("veo nuevo formulario")
+    @Then("VEO NUEVO FORMULARIO")
     public void next(){
 
     }

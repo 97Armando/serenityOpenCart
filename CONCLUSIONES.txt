@@ -1,0 +1,4 @@
+****************
+Se realiza la configuracion
+
+Para la ejecucion del caso de prueba sin validacion de certificado de seguridad

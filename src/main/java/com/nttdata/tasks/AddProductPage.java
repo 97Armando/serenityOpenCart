@@ -17,34 +17,35 @@ public class AddProductPage implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                WaitUntil.the(ShopPageInterface.BTN_ADD_TO_CART_1, isVisible()).forNoMoreThan(20).seconds(),
-                Click.on(ShopPageInterface.BTN_ADD_TO_CART_1),
+                WaitUntil.the(ShopPageInterface.button_ADD_TO_CART_1, isVisible()).forNoMoreThan(20).seconds(),
+                Click.on(ShopPageInterface.button_ADD_TO_CART_1),
 
-                WaitUntil.the(ShopPageInterface.BTN_ADD_TO_CART_2, isVisible()).forNoMoreThan(10).seconds(),
-                Click.on(ShopPageInterface.BTN_ADD_TO_CART_2),
+                WaitUntil.the(ShopPageInterface.button_ADD_TO_CART_2, isVisible()).forNoMoreThan(10).seconds(),
+                Click.on(ShopPageInterface.button_ADD_TO_CART_2),
 
-                WaitUntil.the(ShopPageInterface.BTN_CART, isVisible()).forNoMoreThan(20).seconds(),
-                Click.on(ShopPageInterface.BTN_CART),
+                WaitUntil.the(ShopPageInterface.button_CART, isVisible()).forNoMoreThan(20).seconds(),
+                Click.on(ShopPageInterface.button_CART),
 
-                WaitUntil.the(ShopPageInterface.BTN_VIEW_CART, isVisible()).forNoMoreThan(20).seconds(),
-                Click.on(ShopPageInterface.BTN_VIEW_CART),
+                WaitUntil.the(ShopPageInterface.button_VIEW_CART, isVisible()).forNoMoreThan(20).seconds(),
+                Click.on(ShopPageInterface.button_VIEW_CART),
 
-                WaitUntil.the(ShopPageInterface.BTN_CHECKOUT, isVisible()).forNoMoreThan(20).seconds(),
-                Scroll.to(ShopPageInterface.BTN_CHECKOUT),
-                Click.on(ShopPageInterface.BTN_CHECKOUT),
+                WaitUntil.the(ShopPageInterface.button_CHECKOUT, isVisible()).forNoMoreThan(20).seconds(),
+                Scroll.to(ShopPageInterface.button_CHECKOUT),
+                Click.on(ShopPageInterface.button_CHECKOUT),
 
-                //                CLICK EN CERTIFICADO DE SEGURIDAD
-                WaitUntil.the(ShopPageInterface.BTN_AVANZ, isVisible()).forNoMoreThan(20).seconds(),
-                Click.on(ShopPageInterface.BTN_AVANZ),
 
-                WaitUntil.the(ShopPageInterface.BTN_CONT_SEG, isVisible()).forNoMoreThan(20).seconds(),
-                Click.on(ShopPageInterface.BTN_CONT_SEG),
+//               CLICK EN CERTIFICADO DE SEGURIDAD
+                WaitUntil.the(ShopPageInterface.button_AVANZ, isVisible()).forNoMoreThan(20).seconds(),
+                Click.on(ShopPageInterface.button_AVANZ),
 
-                WaitUntil.the(ShopPageInterface.BTN_GUEST_CHECKOUT, isVisible()).forNoMoreThan(20).seconds(),
-                Click.on(ShopPageInterface.BTN_GUEST_CHECKOUT),
+                WaitUntil.the(ShopPageInterface.button_CONT_SEG, isVisible()).forNoMoreThan(20).seconds(),
+                Click.on(ShopPageInterface.button_CONT_SEG),
+//
+                WaitUntil.the(ShopPageInterface.button_GUEST_CHECKOUT, isVisible()).forNoMoreThan(20).seconds(),
+                Click.on(ShopPageInterface.button_GUEST_CHECKOUT),
 
-                WaitUntil.the(ShopPageInterface.BTN_CONTINUE, isVisible()).forNoMoreThan(20).seconds(),
-                Click.on(ShopPageInterface.BTN_CONTINUE)
+                WaitUntil.the(ShopPageInterface.button_CONTINUE, isVisible()).forNoMoreThan(20).seconds(),
+                Click.on(ShopPageInterface.button_CONTINUE)
 
         );
     }

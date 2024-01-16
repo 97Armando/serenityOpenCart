@@ -1,8 +1,8 @@
 Feature: Purchase products at opencart
 
-  @Test2
+  @Test3
   Scenario Outline: Proceso de compra
-    Given User estoy en la pagina opencart
+    Given USER estoy en la pagina opencart
     When selecciono un producto del catalogo
     Then agrego el producto al carrito
     And veo el carrito
