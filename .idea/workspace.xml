@@ -5,24 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28f5c5c8-ea69-4917-b41c-e5e5c8d6ef52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/tasks/AddProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/tasks/OpenPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/tasks/PurchaseFormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/userinterfaces/PurchasePageInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/userinterfaces/ShopPageInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/glue/LoginGlue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/shop.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nttdata/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nttdata/tasks/AddProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/tasks/AddProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nttdata/tasks/PurchaseFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/tasks/PurchaseFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nttdata/userinterfaces/PurchasePageInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/userinterfaces/PurchasePageInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/glue/LoginGlue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nttdata/glue/LoginGlue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nttdata/runners/RunnerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +27,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,19 +59,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Gradle.RunnerTest.executor": "Coverage",
+    "Cucumber Java.Feature: shop.executor": "Run",
+    "Gradle.Build openCart_E2E.executor": "Run",
+    "Gradle.RunnerTest.executor": "Debug",
     "Gradle.openCart_E2E [:Main.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/armand0/IdeaProjects/openCart_E2E/src/main/java/com/nttdata/userinterfaces",
+    "last_opened_file_path": "C:/Users/jamaldon/IdeaProjects/openCart_E2E",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jamaldon\IdeaProjects\openCart_E2E" />
       <recent name="C:\Users\armand0\IdeaProjects\openCart_E2E\src\main\java\com\nttdata\userinterfaces" />
       <recent name="C:\Users\armand0\IdeaProjects\openCart_E2E\src\main\java\com\nttdata\tasks" />
     </key>
@@ -74,6 +83,25 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="openCart_E2E.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: shop" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/shop.feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors com.nttdata.glue" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="openCart_E2E.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: shop" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,6 +133,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.RunnerTest" />
+        <item itemvalue="Cucumber Java.Feature: shop" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
