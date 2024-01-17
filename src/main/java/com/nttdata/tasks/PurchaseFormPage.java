@@ -46,6 +46,7 @@ public class PurchaseFormPage implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
+// SE REALIZA EL PASO A PASO DEL INGRESO DE DATOS AL FORMULADIO Y LOS CLICK EN BOTONES CONTINUAR
                 WaitUntil.the(PurchasePageInterface.input_FIRST_NAME, isVisible()).forNoMoreThan(20).seconds(),
                 Enter.theValue(firstname).into(PurchasePageInterface.input_FIRST_NAME),
 

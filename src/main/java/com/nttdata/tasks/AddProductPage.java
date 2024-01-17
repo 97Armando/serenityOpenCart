@@ -17,6 +17,7 @@ public class AddProductPage implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
+//                SE REALIZA LA ADICION DE PRODUCTOS Y BOTONES DE CONFIRMACION A BOTONES DE PAGO
                 WaitUntil.the(ShopPageInterface.button_ADD_TO_CART_1, isVisible()).forNoMoreThan(20).seconds(),
                 Click.on(ShopPageInterface.button_ADD_TO_CART_1),
 

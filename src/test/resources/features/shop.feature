@@ -2,13 +2,13 @@ Feature: Purchase products at opencart
 
   @Test3
   Scenario Outline: Proceso de compra
-    Given USER estoy en la pagina opencart
-    When selecciono un producto del catalogo
-    Then agrego el producto al carrito
-    And veo el carrito
+    Given USER ESTOY EN LA PAGINA DE OPENCART
+    When SELECCIONO UN PRODUCTO
+    Then AGREGO EL PRODUCTO AL CARRITO
+    And VEO EL CARRITO
 
-    When ingreso datos <firstname> <lastname> <email> <telephone> <company> <address_1> <city> <postcode> <country> <region>
-    Then veo nuevo formulario
+    When INGRESO DATOS <firstname> <lastname> <email> <telephone> <company> <address_1> <city> <postcode> <country> <region>
+    Then VEO NUEVO FORMULARIO
 
     Examples:
       | firstname | lastname | email               | telephone | company | address_1 | city | postcode | country | region |
