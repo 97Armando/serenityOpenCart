@@ -43,4 +43,4 @@ realizar pruebas automatizadas del proceso de compras sobre la aplicacion Open C
 5. Referencias:
    https://serenity-bdd.github.io/docs/screenplay/screenplay_fundamentals
 
-    
+TEST OK!    
