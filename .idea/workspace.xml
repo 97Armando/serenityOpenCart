@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="28f5c5c8-ea69-4917-b41c-e5e5c8d6ef52" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nttdata/userinterfaces/PurchasePageInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nttdata/userinterfaces/PurchasePageInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/shop.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/shop.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/armand0/IdeaProjects/openCart_E2E",
+    "last_opened_file_path": "C:/Users/armand0/IdeaProjects/karateProject",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
