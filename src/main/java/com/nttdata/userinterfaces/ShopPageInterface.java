@@ -12,9 +12,6 @@ public class ShopPageInterface {
     public static final Target button_VIEW_CART = Target.the(("BOTON VIEW CART")).located(By.xpath("//*[@id='cart']/ul/li[2]/div/p/a[1]"));
     public static final Target button_CHECKOUT = Target.the(("BOTON CHECKOUT")).located(By.xpath("//*[@id='content']/div[3]/div[2]/a"));
     public static final Target button_GUEST_CHECKOUT = Target.the(("BOTON GUEST CHECKOUT")).located(By.xpath("//*[@id='collapse-checkout-option']/div/div/div[1]/div[2]/label/input"));
-//    CLICK EN BOTONES PARA VALIDAR EL CERTIFICADO DE SEGURIDAD
-    public static final Target button_AVANZ = Target.the("BOTON AVANZADO").located(By.xpath("//*[@id='details-button']"));
-    public static final Target button_CONT_SEG = Target.the("BOTON CONT SEG").located(By.xpath("//*[@id='proceed-link']"));
-//
+
     public static final Target button_CONTINUE = Target.the(("BOTON CONTINUE")).located(By.xpath("//*[@id='button-account']"));
 }

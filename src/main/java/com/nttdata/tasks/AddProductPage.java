@@ -34,14 +34,6 @@ public class AddProductPage implements Task {
                 Scroll.to(ShopPageInterface.button_CHECKOUT),
                 Click.on(ShopPageInterface.button_CHECKOUT),
 
-
-//               CLICK EN CERTIFICADO DE SEGURIDAD
-                WaitUntil.the(ShopPageInterface.button_AVANZ, isVisible()).forNoMoreThan(20).seconds(),
-                Click.on(ShopPageInterface.button_AVANZ),
-
-                WaitUntil.the(ShopPageInterface.button_CONT_SEG, isVisible()).forNoMoreThan(20).seconds(),
-                Click.on(ShopPageInterface.button_CONT_SEG),
-//
                 WaitUntil.the(ShopPageInterface.button_GUEST_CHECKOUT, isVisible()).forNoMoreThan(20).seconds(),
                 Click.on(ShopPageInterface.button_GUEST_CHECKOUT),
 
