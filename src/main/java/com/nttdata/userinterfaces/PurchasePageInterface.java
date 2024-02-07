@@ -13,9 +13,9 @@ public class PurchasePageInterface{
     public static final Target input_ADDRESS = Target.the("Input address").located(By.name("address_1"));
     public static final Target input_CITY = Target.the("Input city").located(By.name("city"));
     public static final Target input_POST_CODE = Target.the("Input post code").located(By.name("postcode"));
-    public static final Target input_COUNTRY = Target.the("Input country").located(By.xpath("//*[@id='input-payment-country']"));
+    public static final Target input_COUNTRY = Target.the("Input country").located(By.xpath("//*[@id='input-payment-country']/option[20]"));
     public static final Target input_REGION = Target.the("Input region").located(By.xpath("//*[@id='input-payment-zone']"));
-    public static final Target OPT_REGION = Target.the("Input region").located(By.xpath("//*[@id='input-payment-zone']/option[6]"));
+    public static final Target OPT_REGION = Target.the("Input region").located(By.xpath("//*[@id='input-payment-zone']/option[2]"));
     public static final Target button_CONTINUE = Target.the("BOTON continue").located(By.xpath("//*[@id='button-guest']"));
     public static final Target button_SHIPPING = Target.the("BOTON shipping").located(By.xpath("//*[@id='button-shipping-method']"));
     public static final Target button_TERMS = Target.the("BOTON terms").located(By.xpath("//*[@id='collapse-payment-method']/div/div[3]/div/input[1]"));

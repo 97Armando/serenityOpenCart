@@ -12,4 +12,4 @@ Feature: Purchase products at opencart
 
     Examples:
       | firstname | lastname | email               | telephone | company | address_1 | city | postcode | country | region |
-      | Carlos    | Pico     | cpico6375@gmail.com | 123456789 | Google  | 123       | Lima | 123456   |         | Conwy  |
+      | Armando    | Maldonado | testbrumi@gmail.com | 123456789 | Test  | UIO       | Quito | 170895   | Ecuador | Sierra |
