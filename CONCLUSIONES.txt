@@ -1,13 +1,16 @@
 ##### LOGRO DE OBJETIVOS
-- La automatizacion del proceso de compras segun lo propuesto se cumplen a cabalidad haciendo uso de las herramientas indicadas.
+- La automatizacion del proceso de compras segun lo propuesto se cumplen a cabalidad haciendo uso de las
+herramientas indicadas en la propuesta.
 
-En el desarrollo se identica incompatibilidades entre versiones de dependencias.
+
+- En el desarrollo se identica incompatibilidades entre versiones de dependencias.
 Tambien se valida la diferencia al usar los constructores gradle y maven
-Se
+
 
 - Se cumple la generación de informes detallados y la identificación de posibles problemas en el software el cual estaria listo
 para enviarse al QA Funcional.
 
-Es recomendable el uso de las herramientas puesto que a comparacion de otras en el mercado permiten una mayor escalabilidad
+- Es recomendable el uso de las herramientas puesto que a comparacion de otras en el mercado permiten una mayor escalabilidad
 e integracion a la automatizacion de pruebas complejas que llevan mucho tiempo realizarlo.
 
+PRUEBA AUTOMATIZACION PROCESO DE COMPRAS ... OK!

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Purchase products at opencart" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-19T07:55:12" hostname="DESK" time="42.993">
+  <properties/>
+  <testcase name="Proceso de compra" classname="Purchase products at opencart" time="42.993"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting Microsoft Edge WebDriver 120.0.2210.144 (cbca972d5981c891b73744a5735a810417a3e9d6) on port 38242
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+ene 19, 2024 2:55:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find CDP implementation matching 120
+ene 19, 2024 2:55:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+ADVERTENCIA: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>

@@ -1,0 +1,7 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¿÷şşÿÿÿÿ
+n	java:S116"TRename this field "address_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ƒšûÿÿÿÿ
+\	java:S107"BConstructor has 10 parameters, which is greater than 7 authorized.(ç¿÷şşÿÿÿÿ
+W	java:S107*"=Method has 10 parameters, which is greater than 7 authorized.(¡÷‰ıûÿÿÿÿ
+_
+java:S1128"IRemove this unused import 'com.nttdata.userinterfaces.ShopPageInterface'.(ó¶ë˜
