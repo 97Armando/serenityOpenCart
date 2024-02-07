@@ -116,7 +116,18 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+<<<<<<< HEAD
     "last_opened_file_path": "C:/Users/jamaldon/IdeaProjects/serenityOpenCart",
+=======
+<<<<<<< HEAD
+    "last_opened_file_path": "C:/Users/jamaldon/IdeaProjects/serenityOpenCart",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+=======
+    "last_opened_file_path": "C:/Users/armand0/IdeaProjects/openCart_E2E",
+>>>>>>> 4308370835cef5e0e98d13ca278aa118d96018a4
+>>>>>>> 52c44ae1c87f05fd44a0b7b9a8baea2f4dd07ffc
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
